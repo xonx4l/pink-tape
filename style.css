@@ -1,0 +1,58 @@
+* {
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+html,body{
+    height: 100%;
+    width:100%
+}
+
+#page1{
+    height: 100vh;
+    width:100vw;
+    background-color: aliceblue;
+    position:relative;
+}
+
+#navbar{
+    height:100px;
+    background-color: white;
+    width:100%;
+    display: flex;
+
+    align-items:center;
+    justify-content: center;
+    border-bottom: 10px solid #222;
+}
+
+#h5{
+    color:pink;
+}
+
+#navbar img {
+    height:70px;
+
+}
+
+#navbar h5{
+    font-size: 50px;
+    font-weight: 100;
+    font-style: oblique;
+}
+
+#image-div img {
+    height:800px;
+    width:100%;
+
+
+
+}
+
+#image-div2 img{
+    height:400px;
+    mso-vertical-page-align: top;
+    justify-content: space-between;
+
+}
